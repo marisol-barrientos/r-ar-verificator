@@ -1,0 +1,220 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "HR clerk",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "create job description",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "vacancy reported"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "HR clerk",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "ask department for clarification",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "confusion in the message"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "HR clerk",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "submit job description for consideration",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "department",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "reject job description",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        5
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "department",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "approve job description",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        4
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "HR clerk",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "correct job description",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "job description rejected and correction requested"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "HR clerk",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "resubmit job description for consideration",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "job description corrected"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "HR clerk",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "post the job",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "job description approved"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "automatic",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "search Police Report in the Police Report database",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "car accident"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        9
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "automatic",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "put Police Report and Claim Documentation in a file",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "Police Report found"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        9
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "claims handler",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "calculate initial claim estimate",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "file with Police Report and Claim Documentation prepared"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "claims handler",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "create Action Plan based on Action Plan Checklist",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "initial claim estimate calculated"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "claims manager",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "negotiate a settlement on the claim estimate",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "Action Plan created"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "claims manager",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "inform claimant of the outcome",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "settlement negotiation completed"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "not_specified",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "end the process",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "claimant informed of the outcome"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

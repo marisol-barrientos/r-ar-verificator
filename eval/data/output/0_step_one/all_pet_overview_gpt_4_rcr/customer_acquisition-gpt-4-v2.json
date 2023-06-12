@@ -1,0 +1,212 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "not_specified",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "determine contact details of potential customers",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "call center staff",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "call the customer",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "contact details determined"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "call center staff",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "determine the contact person and the budget",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "calling the customer"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "call center staff",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "ask the customer if they are generally interested",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "calling the customer"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "head of development",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "try to acquire the customer",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "customer not interested and potential project budget is huge"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "sales representative or pre-sales employee",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "give a detailed online presentation",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "customer is interested"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "sales representative",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "call the customer",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "customer does not come back within 2 weeks"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "not_specified",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "create a quotation",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

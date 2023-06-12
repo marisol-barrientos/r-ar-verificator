@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "Activity_in_Log": "declaration final_approved",
+        "Detected_Activity": "approve request",
+        "Resources": "director"
+    },
+    {
+        "id": 2,
+        "Activity_in_Log": "declaration approved",
+        "Detected_Activity": "approve request",
+        "Resources": "administration" 
+    },
+    {
+        "id": 3,
+        "Activity_in_Log": "declaration rejected",
+        "Detected_Activity": "reject request",
+        "Resources": "employee"
+    },
+    {
+        "id": 4,
+        "Activity_in_Log": "declaration submitted",
+        "Detected_Activity": "submit declaration documents",
+        "Resources": "employee"
+    },
+    {
+        "id": 5,
+        "Activity_in_Log": "request payment",
+        "Detected_Activity": "request payment",
+        "Resources": "automatic" 
+    },
+    {
+        "id": 6,
+        "Activity_in_Log": "permit rejected",
+        "Detected_Activity": "reject request",
+        "Resources": "employee"
+
+    },
+    {
+        "id": 7,
+        "Activity_in_Log": "request for payment rejected",
+        "Detected_Activity": "reject request",
+        "Resources": "employee"
+
+    }
+]

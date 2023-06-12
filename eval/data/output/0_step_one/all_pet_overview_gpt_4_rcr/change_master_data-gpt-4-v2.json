@@ -1,0 +1,140 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "EC",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "tell INQ about change of master data",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "INQ",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "notify IP of the change",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "IP",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "check if master data can be changed at the desired time",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "IP",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "confirm changes of the INQ",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "master data can be changed at the desired time"
+      ],
+      "inclusion": [],
+      "exclusion": [
+        5
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "IP",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "reject changes of the INQ",
+      "is_performed": false,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "master data cannot be changed at the desired time"
+      ],
+      "inclusion": [],
+      "exclusion": [
+        4
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        2,
+        3
+      ]
+    }
+  ]
+}

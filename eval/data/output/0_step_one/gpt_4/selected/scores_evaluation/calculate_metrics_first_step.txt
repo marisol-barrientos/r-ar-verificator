@@ -1,0 +1,48 @@
+bicycle_gpt_3_5:
+  Precision: 0.62
+  Recall: 1.00
+  F1-score: 0.76
+  Accuracy: 0.71
+
+bicycle_gpt_4:
+  Precision: 0.90
+  Recall: 1.00
+  F1-score: 0.95
+  Accuracy: 0.93
+
+running_gpt_3_5:
+  Precision: 0.92
+  Recall: 0.92
+  F1-score: 0.92
+  Accuracy: 0.86
+
+running_gpt_4:
+  Precision: 1.00
+  Recall: 1.00
+  F1-score: 1.00
+  Accuracy: 1.00
+
+schedule_meetings_gpt_3_5:
+  Precision: 0.50
+  Recall: 0.17
+  F1-score: 0.25
+  Accuracy: 0.14
+
+schedule_meetings_gpt_4:
+  Precision: 0.89
+  Recall: 1.00
+  F1-score: 0.94
+  Accuracy: 0.89
+
+bpic_gpt_3_5:
+  Precision: 0.76
+  Recall: 0.72
+  F1-score: 0.74
+  Accuracy: 0.59
+
+bpic_gpt_4:
+  Precision: 1.00
+  Recall: 1.00
+  F1-score: 1.00
+  Accuracy: 1.00
+

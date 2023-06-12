@@ -1,0 +1,160 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "I (Head of the functional department)",
+      "role": "Head of the functional department",
+      "user": "not_specified",
+      "org_unit": "functional department",
+      "organization": "not_specified",
+      "activity": "report vacancy to Personnel Department",
+      "is_performed": true,
+      "has_anaphora": [
+        true,
+        "I"
+      ],
+      "has_condition": [
+        true,
+        "detect personnel requirements"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "not_specified",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Personnel Department",
+      "organization": "not_specified",
+      "activity": "provide job description for review",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "receive vacancy report"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "I (Head of the functional department)",
+      "role": "Head of the functional department",
+      "user": "not_specified",
+      "org_unit": "functional department",
+      "organization": "not_specified",
+      "activity": "ask for corrections",
+      "is_performed": true,
+      "has_anaphora": [
+        true,
+        "I"
+      ],
+      "has_condition": [
+        true,
+        "job description needs corrections"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "I (Head of the functional department)",
+      "role": "Head of the functional department",
+      "user": "not_specified",
+      "org_unit": "functional department",
+      "organization": "not_specified",
+      "activity": "approve job description",
+      "is_performed": true,
+      "has_anaphora": [
+        true,
+        "I"
+      ],
+      "has_condition": [
+        true,
+        "job description is satisfactory"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "colleague from HR department",
+      "role": "HR colleague",
+      "user": "not_specified",
+      "org_unit": "HR department",
+      "organization": "not_specified",
+      "activity": "ask questions about tasks and requirements",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "need clarification before describing job"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "I (Head of the functional department)",
+      "role": "Head of the functional department",
+      "user": "not_specified",
+      "org_unit": "functional department",
+      "organization": "not_specified",
+      "activity": "provide clarifications",
+      "is_performed": true,
+      "has_anaphora": [
+        true,
+        "I"
+      ],
+      "has_condition": [
+        true,
+        "HR colleague asks questions about tasks and requirements"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

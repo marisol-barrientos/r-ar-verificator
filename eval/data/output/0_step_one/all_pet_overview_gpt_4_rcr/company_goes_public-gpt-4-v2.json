@@ -1,0 +1,290 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "select the underwriters",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "company makes the decision to go public"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "provide the company with procedural and financial advice",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "buy the issue",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "resell the issue to the public",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "prepare a registration statement for the approval of the Securities and Exchange Commission (SEC)",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "check that the issue complies with the blue-sky laws of each state",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "firm up the issue price",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "registration statement is awaiting approval"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "arrange a road show",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "fix the issue price",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "receive clearance from the SEC"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "enter into a firm commitment to buy the stock",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "resource": "underwriters",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "offer the stock to the public",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "they haven't still found any reason not to do it"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

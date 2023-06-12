@@ -1,0 +1,134 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "Assembler AG",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "place an order with the supplier",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "on the first of each month"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "Assembler AG",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "send the order to the supplier",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "order is placed"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "supplier",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "process the order",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "receive the order from Assembler AG"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "supplier",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "send an invoice to Assembler AG",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "order is processed"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "Assembler AG",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "receive the invoice",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "invoice is sent by the supplier"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

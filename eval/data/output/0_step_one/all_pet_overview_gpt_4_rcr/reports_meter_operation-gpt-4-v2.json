@@ -1,0 +1,528 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "MPON",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "GO",
+      "activity": "report meter operation",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "examine application",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        3,
+        4
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "reject application",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        2,
+        4
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "confirm application",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        2,
+        3
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "inform MPOO",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "inform MSPO",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "MPON and MPOO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "perform equipment acquisition",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "MPON and MPOO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "perform equipment changes",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "resource": "MPON",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "GO",
+      "activity": "inform about failure",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        10
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 10,
+      "resource": "MPON",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "GO",
+      "activity": "inform about successful completion",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        9
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 11,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "inform MPON about failure",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "maximum time limit"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "confirm failure",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "MPON informs GO about failure"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "assign MPON",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "MPON informs GO about successful completion"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "confirm assignment to MPON",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "inform MPOO about failure",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        16
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 16,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "inform MPOO about assignment",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        15
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 17,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "inform MSPO about failure",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        18
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 18,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "inform MSPO about assignment",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [
+        17
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 19,
+      "resource": "GO",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "inform SP about assignment",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

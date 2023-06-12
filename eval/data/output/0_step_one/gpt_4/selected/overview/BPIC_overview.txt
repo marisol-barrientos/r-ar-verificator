@@ -1,0 +1,13 @@
+Total number of pairs: 17
+Number of pairs with has_anaphora = true: 0
+Number of pairs with has_condition = true: 15
+Number of pairs with is_performed = true: 17
+Total number of inclusion not empty: 0
+Total number of exclusion not empty: 4
+Total number of min not empty: 0
+Total number of max not empty: 0
+Total number of equals not empty: 0
+Total number of role not_specified or empty: 17
+Total number of user not_specified or empty: 17
+Total number of org_unit not_specified or empty: 17
+Total number of organization not_specified or empty: 17

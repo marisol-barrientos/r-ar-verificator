@@ -1,0 +1,5 @@
+Total number of files: 45
+Total number of IDs: 449
+Average number of IDs per file: 9.977777777777778
+Average number of different resources: 2.2
+Average number of different activities: 9.688888888888888

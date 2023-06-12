@@ -1,0 +1,949 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "receive notice by telephone",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "family doctor",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "provide notice of patient in need of mental treatment",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "secretarial worker",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "secretarial office",
+      "organization": "mental health care institute",
+      "activity": "inquire after the name and residence of the patient",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "secretarial worker",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "secretarial office",
+      "organization": "mental health care institute",
+      "activity": "put the doctor through to the nursing officer",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "based on the patient's residence"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "nursing officer",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "make a full inquiry into the mental, health, and social state of the patient",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "nursing officer",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "record information on a registration form",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "nursing officer",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "hand in the registration form at the secretarial office",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "store the information from the registration form in the information system",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 9,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "print the information from the information system",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 10,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "create a patient file for new patients",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 11,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "store the registration form and print in the patient file",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 12,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "keep patient files at the office",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 13,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "produce two registration cards for the future first and second intaker",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 14,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "add the new patient to the list of new notices",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 15,
+      "resource": "medical team",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "hold a staff meeting on Wednesday",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 16,
+      "resource": "team-leader",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "assign new patients to team members",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 17,
+      "resource": "team-leader",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "record assignments on an assignment list",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 18,
+      "resource": "team-leader",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "determine whether the medical file of the patient is required",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 19,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "store the assignment of each patient in the information system",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 20,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "pass the registration cards to the first and second intaker",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 21,
+      "resource": "first intaker",
+      "role": "social-medical worker",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "plan a meeting with the patient",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 22,
+      "resource": "first intaker",
+      "role": "social-medical worker",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "examine the patient using a standard checklist",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "during the first meeting"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 23,
+      "resource": "first intaker",
+      "role": "social-medical worker",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "register additional observations in a personal notebook",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "during the first meeting"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 24,
+      "resource": "first intaker",
+      "role": "social-medical worker",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "put a copy of notes in the patient's file",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "after a visit"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 25,
+      "resource": "second intaker",
+      "role": "physician",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "plan the first meeting",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "after the medical information has been received"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 26,
+      "resource": "physicians",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "use dictaphones to record observations during meetings with patients",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 27,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "type out the information from dictaphones",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 28,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "add the typed information to the patient file",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 29,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "put the patient on the list of patients that reach the status of having completed first and second intaker meetings",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "as soon as the meetings have taken place"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 30,
+      "resource": "secretarial office of the mental health care institute",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "provide the team-leader with a list of patients who completed first and second intaker meetings",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "for the staff meeting on Wednesday"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 31,
+      "resource": "first intaker, second intaker, team-leader, and attending psychiatrist",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "formulate a treatment plan",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 32,
+      "resource": "first intaker",
+      "role": "social-medical worker",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "add the standard checklist to the patient's file",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 33,
+      "resource": "medical team",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "attend a staff meeting",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "halfway the week, at Wednesday"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 34,
+      "resource": "team-leader",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "assign new patients to members of the medical team",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "at the staff meeting"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 35,
+      "resource": "medical team",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "mental health care institute",
+      "activity": "complete the intake procedure",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "after formulating the treatment plan"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    }
+  ]
+}

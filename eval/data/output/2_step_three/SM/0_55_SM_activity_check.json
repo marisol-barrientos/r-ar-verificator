@@ -1,0 +1,86 @@
+{
+    "measure_types": {
+        "similarity_measure": "TF-IDF",
+        "threshold": 0.55,
+        "activity_matching": true
+    },
+    "activity_matching_output": [
+        {
+            "Id_in_Log": 1,
+            "Id_in_Description": 1,
+            "Activity_in_Log": "draft schedule of meetings",
+            "Detected_Activity": "draft a schedule of meetings",
+            "Similarity_Score": 1.0000000000000002
+        },
+        {
+            "Id_in_Log": 2,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "add draft dates to calendars",
+            "Detected_Activity": "add draft dates to all calendars",
+            "Similarity_Score": 1.0000000000000002
+        },
+        {
+            "Id_in_Log": 3,
+            "Id_in_Description": 4,
+            "Activity_in_Log": "suggest modifications",
+            "Detected_Activity": "suggest modifications",
+            "Similarity_Score": 1.0000000000000002
+        },
+        {
+            "Id_in_Log": 4,
+            "Id_in_Description": 3,
+            "Activity_in_Log": "check dates",
+            "Detected_Activity": "check the dates",
+            "Similarity_Score": 1.0
+        },
+        {
+            "Id_in_Log": 5,
+            "Id_in_Description": 5,
+            "Activity_in_Log": "recheck dates",
+            "Detected_Activity": "recheck all dates",
+            "Similarity_Score": 0.9999999999999998
+        },
+        {
+            "Id_in_Log": 6,
+            "Id_in_Description": "None",
+            "Activity_in_Log": "looks for conflicts",
+            "Detected_Activity": "",
+            "Similarity_Score": 0.5127483475537044
+        },
+        {
+            "Id_in_Log": 7,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "send final schedule to committee members",
+            "Detected_Activity": "send the final schedule of meeting dates",
+            "Similarity_Score": 0.8101199436283258
+        },
+        {
+            "Id_in_Log": 8,
+            "Id_in_Description": 8,
+            "Activity_in_Log": "check diaries",
+            "Detected_Activity": "check their diaries",
+            "Similarity_Score": 1.0
+        },
+        {
+            "Id_in_Log": 9,
+            "Id_in_Description": "None",
+            "Activity_in_Log": "advice of conflicts",
+            "Detected_Activity": "",
+            "Similarity_Score": 0.5127483475537044
+        },
+        {
+            "Id_in_Log": 10,
+            "Id_in_Description": 1,
+            "Activity_in_Log": "draft schedule of meetings",
+            "Detected_Activity": "draft a schedule of meetings",
+            "Similarity_Score": 1.0000000000000002
+        },
+        {
+            "Id_in_Log": 11,
+            "Id_in_Description": 1,
+            "Activity_in_Log": "draft schedule of meetings",
+            "Detected_Activity": "draft a schedule of meetings",
+            "Similarity_Score": 1.0000000000000002
+        }
+    ]
+}

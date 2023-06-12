@@ -1,0 +1,13 @@
+The various declaration documents (domestic and international declarations, pre-paid travel costs and requests for payment) all follow a similar process flow. After submission by the employee, the request is sent for approval to the travel administration. If approved, the request is then forwarded to the budget owner and after that to the supervisor. If the budget owner and supervisor are the same person, then only one of the these steps it taken. In some cases, the director also needs to approve the request.
+
+In all cases, a rejection leads to one of two outcomes. Either the employee resubmits the request, or the employee also rejects the request.
+
+If the approval flow has a positive result, the payment is requested and made.
+
+The travel permits follow a slightly different flow as there is no payment involved. Instead, after all approval steps a trip can take place, indicated with an estimated start and end date. These dates are not exact travel dates, but rather estimated by the employee when the permit request is submitted. The actual travel dates are not recorded in the data, but should be close to the given dates in most cases.
+
+After the end of a trip, an employee receives several reminders to submit a travel declaration.
+
+After a travel permit is approved, but before the trip starts, employees can ask for a reimbursement of pre-paid travel costs. Several requests can be submitted independently of each other. After the trip ends, an international declaration can be submitted, although sometimes multiple declarations are seen for specific cases.
+
+It’s important to realize that the process described above is the process for 2018. For 2017, there are some differences as this was a pilot year and the process changed slightly on several occasions.

@@ -1,0 +1,114 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "INQ",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "transmit the transaction data request to the IP",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "IP",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "check the request of the INQ",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "IP",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "transmit data",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "IP checks the request of the INQ"
+      ],
+      "inclusion": [],
+      "exclusion": [
+        4
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "IP",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "reject",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "IP checks the request of the INQ"
+      ],
+      "inclusion": [],
+      "exclusion": [
+        3
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    }
+  ]
+}

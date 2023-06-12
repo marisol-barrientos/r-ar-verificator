@@ -1,0 +1,8 @@
+bicycle_gpt_3_5 = TN: 4, TP: 8, FP: 5, FN: 0
+bicycle_gpt_4 = TN: 4, TP: 9, FP: 1, FN: 0
+running_gpt_3_5 = TN: 1, TP: 11, FP: 1, FN: 1
+running_gpt_4 = TN: 1, TP: 14, FP: 0, FN: 0
+schedule_meetings_gpt_3_5 = TN: 0, TP: 1, FP: 1, FN: 5
+schedule_meetings_gpt_4 = TN: 0, TP: 8, FP: 1, FN: 0
+bpic_gpt_3_5 = TN: 0, TP: 13, FP: 4, FN: 5
+bpic_gpt_4 = TN: 1, TP: 16, FP: 0, FN: 0

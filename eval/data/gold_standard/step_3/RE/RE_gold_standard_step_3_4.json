@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "Activity_in_Log": "demand solvency check",
+        "Detected_Activity": "demand a solvency check from Miracle Credit",
+        "Resources": "Elite Holding"
+    },
+    {
+        "id": 2,
+        "Activity_in_Log": "perform solvency check",
+        "Detected_Activity": "perform the solvency check",
+        "Resources": "clerks at Miracle Credit"
+    },
+    {
+        "id": 3,
+        "Activity_in_Log": "hand back solvency check results",
+        "Detected_Activity": "hand back the results of the solvency check to Elite Holding",
+        "Resources": "Miracle Credit"
+    },
+    {
+        "id": 4,
+        "Activity_in_Log": "develop payment schedule",
+        "Detected_Activity": "develop a payment schedule",
+        "Resources": "Hans"
+    },
+    {
+        "id": 5,
+        "Activity_in_Log": "approve payment schedule",
+        "Detected_Activity": "approve the payment schedule",
+        "Resources": "Hans"
+    },
+    {
+        "id": 6,
+        "Activity_in_Log": "send email to customer",
+        "Detected_Activity": "send an email to the customer",
+        "Resources": "automatic"
+    },
+    {
+        "id": 7,
+        "Activity_in_Log": "inform customer",
+        "Detected_Activity": "inform the customer",
+        "Resources": "customer advisory"
+    },
+    {
+        "id": 8,
+        "Activity_in_Log": "delete customer request",
+        "Detected_Activity": "delete the customer's request",
+        "Resources": ""
+    },
+    {
+        "id": 9,
+        "Activity_in_Log": "call customer to discuss alternative",
+        "Detected_Activity": "call the customer to suggest an alternative",
+        "Resources": "customer advisory"
+    }
+]

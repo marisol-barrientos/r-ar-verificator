@@ -1,0 +1,270 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "member of the sales department",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "sales department",
+      "organization": "not_specified",
+      "activity": "reject the order",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "order is received"
+      ],
+      "inclusion": [],
+      "exclusion": [
+        2
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "member of the sales department",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "sales department",
+      "organization": "not_specified",
+      "activity": "accept the order",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "order is received"
+      ],
+      "inclusion": [],
+      "exclusion": [
+        1
+      ],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "storehouse",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "storehouse",
+      "organization": "not_specified",
+      "activity": "process the part list",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "order is accepted"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "storehouse",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "storehouse",
+      "organization": "not_specified",
+      "activity": "check the required quantity of each part",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "part list is processed"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "storehouse",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "storehouse",
+      "organization": "not_specified",
+      "activity": "reserve the part",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "part is available in-house"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "storehouse",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "storehouse",
+      "organization": "not_specified",
+      "activity": "back-order the part",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "part is not available in-house"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "engineering department",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "engineering department",
+      "organization": "not_specified",
+      "activity": "prepare for assembling",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "order is accepted"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "engineering department",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "engineering department",
+      "organization": "not_specified",
+      "activity": "assemble the bicycle",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "storehouse reserved or back-ordered every item and preparation is finished"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "resource": "sales department",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "sales department",
+      "organization": "not_specified",
+      "activity": "ship the bicycle to the customer",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "bicycle is assembled"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "resource": "sales department",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "sales department",
+      "organization": "not_specified",
+      "activity": "finish the process instance",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "bicycle is shipped to the customer or order is rejected"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

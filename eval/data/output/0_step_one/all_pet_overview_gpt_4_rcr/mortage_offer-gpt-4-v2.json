@@ -1,0 +1,316 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "Mail Processing Unit",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Mail Processing Unit",
+      "organization": "not_specified",
+      "activity": "collect mail from party",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "Mail Clerk",
+      "role": "Mail Clerk",
+      "user": "not_specified",
+      "org_unit": "Mail Processing Unit",
+      "organization": "not_specified",
+      "activity": "sort unopened mail",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "Mail Processing Unit",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Mail Processing Unit",
+      "organization": "not_specified",
+      "activity": "distribute mail",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "Registry",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Registry",
+      "organization": "not_specified",
+      "activity": "open and sort mail",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "receive mail"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "Registry",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Registry",
+      "organization": "not_specified",
+      "activity": "register mail in manual incoming Mail Register",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "sort mail into groups"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "Assistant Registry Manager",
+      "role": "Assistant Registry Manager",
+      "user": "not_specified",
+      "org_unit": "Registry",
+      "organization": "not_specified",
+      "activity": "perform quality check",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "Assistant Registry Manager",
+      "role": "Assistant Registry Manager",
+      "user": "not_specified",
+      "org_unit": "Registry",
+      "organization": "not_specified",
+      "activity": "compile list of requisition and send back to party",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "mail is not compliant"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "Assistant Registry Manager",
+      "role": "Assistant Registry Manager",
+      "user": "not_specified",
+      "org_unit": "Registry",
+      "organization": "not_specified",
+      "activity": "capture matter details",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "mail is compliant"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "resource": "Cashier",
+      "role": "Cashier",
+      "user": "not_specified",
+      "org_unit": "Registry",
+      "organization": "not_specified",
+      "activity": "take applicable fees",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "matter details are captured"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "resource": "Assistant Registry Manager",
+      "role": "Assistant Registry Manager",
+      "user": "not_specified",
+      "org_unit": "Registry",
+      "organization": "not_specified",
+      "activity": "post receipt and copied documents to party",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "Cashier takes fees"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "resource": "Cashier",
+      "role": "Cashier",
+      "user": "not_specified",
+      "org_unit": "Registry",
+      "organization": "not_specified",
+      "activity": "capture Party Details",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "matter details are captured"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "resource": "Cashier",
+      "role": "Cashier",
+      "user": "not_specified",
+      "org_unit": "Registry",
+      "organization": "not_specified",
+      "activity": "print Physical Court File",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "capture Party Details"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

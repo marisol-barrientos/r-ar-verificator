@@ -1,0 +1,616 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "Customer",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "initiate a switch-over request",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Shared Service Center",
+      "organization": "not_specified",
+      "activity": "receive customer data and enter it into the CRM system",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "initiate a switch-over request"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Shared Service Center",
+      "organization": "not_specified",
+      "activity": "compare customer data with internal database and check for completeness and plausibility",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "receive customer data and enter it into the CRM system"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Shared Service Center",
+      "organization": "not_specified",
+      "activity": "correct errors based on error list if needed",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "compare customer data with internal database and check for completeness and plausibility"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Shared Service Center",
+      "organization": "not_specified",
+      "activity": "create a new customer object if the customer does not exist in the database",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "compare customer data with internal database and check for completeness and plausibility"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Shared Service Center",
+      "organization": "not_specified",
+      "activity": "prepare contract documents for the power supplier switch",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Shared Service Center",
+      "organization": "not_specified",
+      "activity": "perform an automated check of contract documents in the CIS",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "prepare contract documents for the power supplier switch"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Shared Service Center",
+      "organization": "not_specified",
+      "activity": "analyze and resolve issues if contract documents are not generated or incorrect",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "perform an automated check of contract documents in the CIS"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Shared Service Center",
+      "organization": "not_specified",
+      "activity": "send confirmation document to the customer if the switch-over request is approved",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "perform an automated check of contract documents in the CIS"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "resource": "CIS",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "automatically send a switch-over request to the grid operator",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "send confirmation document to the customer if the switch-over request is approved"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 11,
+      "resource": "Grid Operator",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "check switch-over request for supplier concurrence and transmit a response",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "automatically send a switch-over request to the grid operator"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 12,
+      "resource": "Grid Operator",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "resolve supplier concurrence conflicts",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "resource": "Grid Operator",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "inform all involved suppliers and demand resolution of conflicts",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "check switch-over request for supplier concurrence and transmit a response"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 14,
+      "resource": "Grid Operator",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "terminate sales agreement between the customer and the old supplier",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "inform all involved suppliers and demand resolution of conflicts"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 15,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Shared Service Center",
+      "organization": "not_specified",
+      "activity": "create a CIS contract",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "terminate sales agreement between the customer and the old supplier"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 16,
+      "resource": "Customer",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "check contract details and decide to withdraw or confirm the switch contract",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "create a CIS contract"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "resource": "Grid Operator",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "transmit power meter data to the customer service and the old supplier",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "check contract details and decide to withdraw or confirm the switch contract"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 18,
+      "resource": "Grid Operator",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "compute final billing based on meter data and send it to the old supplier",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "transmit power meter data to the customer service and the old supplier"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 19,
+      "resource": "Old Supplier",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "create and send the final billing to the customer",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "compute final billing based on meter data and send it to the old supplier"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 20,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Shared Service Center",
+      "organization": "not_specified",
+      "activity": "import meter data to systems that require the information",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "transmit power meter data to the customer service and the old supplier"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ],
+  "connections": [
+    {
+      "from": 1,
+      "to": 2,
+      "type": "sequential"
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "type": "sequential"
+    },
+    {
+      "from": 3,
+      "to": 4,
+      "type": "sequential"
+    },
+    {
+      "from": 3,
+      "to": 5,
+      "type": "sequential"
+    },
+    {
+      "from": 5,
+      "to": 6,
+      "type": "sequential"
+    },
+    {
+      "from": 6,
+      "to": 7,
+      "type": "sequential"
+    },
+    {
+      "from": 7,
+      "to": 8,
+      "type": "sequential"
+    },
+    {
+      "from": 7,
+      "to": 9,
+      "type": "sequential"
+    },
+    {
+      "from": 9,
+      "to": 10,
+      "type": "sequential"
+    },
+    {
+      "from": 10,
+      "to": 11,
+      "type": "sequential"
+    },
+    {
+      "from": 11,
+      "to": 13,
+      "type": "sequential"
+    },
+    {
+      "from": 13,
+      "to": 14,
+      "type": "sequential"
+    },
+    {
+      "from": 14,
+      "to": 15,
+      "type": "sequential"
+    },
+    {
+      "from": 15,
+      "to": 16,
+      "type": "sequential"
+    },
+    {
+      "from": 16,
+      "to": 17,
+      "type": "sequential"
+    },
+    {
+      "from": 17,
+      "to": 18,
+      "type": "sequential"
+    },
+    {
+      "from": 18,
+      "to": 19,
+      "type": "sequential"
+    },
+    {
+      "from": 17,
+      "to": 20,
+      "type": "sequential"
+    }
+  ]
+}

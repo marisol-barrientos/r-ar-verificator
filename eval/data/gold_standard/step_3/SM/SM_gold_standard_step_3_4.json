@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "Activity_in_Log": "draft schedule of meetings",
+        "Detected_Activity": "draft a schedule of meetings",
+        "Resources": "Coordination Unit at the Town Planning Authority"
+    },
+    {
+        "id": 2,
+        "Activity_in_Log": "add draft dates to calendars",
+        "Detected_Activity": "add draft dates to all calendars",
+        "Resources": "Coordination Unit at the Town Planning Authority"
+    },
+    {
+        "id": 3,
+        "Activity_in_Log": "suggest modifications",
+        "Detected_Activity": "suggest modifications",
+        "Resources": "support officer"
+    },
+    {
+        "id": 4,
+        "Activity_in_Log": "check dates",
+        "Detected_Activity": "check the dates",
+        "Resources": "support officer"
+    },
+    {
+        "id": 5,
+        "Activity_in_Log": "recheck dates",
+        "Detected_Activity": "recheck all dates",
+        "Resources": "Coordination Unit at the Town Planning Authority"
+    },
+    {
+        "id": 6,
+        "Activity_in_Log": "send final schedule to committee members",
+        "Detected_Activity": "send the final schedule of meeting dates",
+        "Resources": "Coordination Unit at the Town Planning Authority"
+
+    },
+    {
+        "id": 7,
+        "Activity_in_Log": "check diaries",
+        "Detected_Activity": "check their diaries",
+        "Resources": "committee members"
+
+    }
+]

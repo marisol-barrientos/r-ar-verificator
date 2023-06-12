@@ -1,0 +1,55 @@
+Resource,Activity,DomesticDeclarations,InternationalDeclarations,PermitLog,PrepaidTravelCost,RequestForPayment
+administration,declaration approved,14.533019,6.98187,5.523726,,
+administration,declaration rejected,1.686837,2.147095,1.704939,,
+administration,permit approved,,6.707418,6.601442,8.785487,
+administration,permit for_approval,,,0.001155,,
+administration,permit rejected,,0.115048,0.153629,0.08221,
+administration,request for payment approved,,,1.76847,9.459608,14.917382
+administration,request for payment for_approval,,,,,0.002718
+administration,request for payment rejected,,,0.229866,1.26055,2.271986
+budget owner,declaration approved,4.996722,2.542138,1.98332,,
+budget owner,declaration rejected,0.104541,0.055445,0.045049,,
+budget owner,permit approved,,2.443724,2.365661,3.35416,
+budget owner,permit rejected,,0.04297,0.062376,0.093171,
+budget owner,request for payment approved,,,0.69884,3.863861,5.473421
+budget owner,request for payment final_approved,,,,,0.002718
+budget owner,request for payment rejected,,,0.006931,,0.127731
+director,declaration final_approved,,0.349301,0.250658,,
+director,declaration rejected,,0.005544,0.00462,,
+director,permit final_approved,,0.887115,0.786628,2.137455,
+director,permit rejected,,,0.00231,,
+director,request for payment final_approved,,,0.042739,0.224707,0.111425
+employee,declaration rejected,2.418626,2.467288,1.949822,,
+employee,declaration saved,0.239205,0.103959,0.075082,,
+employee,declaration submitted,20.431632,11.226159,8.748787,,
+employee,end trip,,8.933522,8.155062,,
+employee,permit rejected,,0.320193,0.398512,0.460375,
+employee,permit saved,,,0.019637,,
+employee,permit submitted,,8.67016,8.468096,10.698235,
+employee,request for payment rejected,,,0.272605,1.485257,2.94869
+employee,request for payment saved,,,0.019637,0.131536,0.201109
+employee,request for payment submitted,,,2.348334,12.490409,20.393521
+employee,start trip,,8.934908,8.156217,,
+missing,declaration rejected,0.161242,0.14277,0.11089,,
+missing,permit rejected,,0.059603,0.095874,0.120574,
+missing,request for payment rejected,,,0.008086,0.049326,0.179367
+pre_approver,declaration approved,1.213743,0.848303,0.648016,,
+pre_approver,declaration for_approval,0.001772,,,,
+pre_approver,declaration rejected,0.152382,0.116434,0.088943,,
+pre_approver,permit approved,,0.740186,0.674583,0.865943,
+pre_approver,permit rejected,,0.034653,0.038119,0.08769,
+pre_approver,request for payment approved,,,0.180197,0.876905,1.122405
+pre_approver,request for payment rejected,,,0.019637,0.098652,0.138602
+supervisor,declaration approved,,0.354846,0.255279,,
+supervisor,declaration final_approved,17.95099,8.370758,6.515964,,
+supervisor,declaration for_approval,0.001772,,,,
+supervisor,declaration rejected,0.519163,0.174651,0.132837,,
+supervisor,permit approved,,0.888501,0.788939,2.137455,
+supervisor,permit final_approved,,7.458694,7.27718,8.100406,
+supervisor,permit rejected,,0.127523,0.144388,0.197304,
+supervisor,request for payment approved,,,0.042739,0.224707,0.111425
+supervisor,request for payment final_approved,,,2.024904,10.731119,17.238287
+supervisor,request for payment rejected,,,0.023102,0.131536,0.486466
+undefined,payment handled,17.796835,8.575904,8.714134,10.9065,17.14045
+undefined,request payment,17.789748,8.570359,8.710669,10.9065,17.129579
+undefined,send reminder,,0.601575,2.660213,,

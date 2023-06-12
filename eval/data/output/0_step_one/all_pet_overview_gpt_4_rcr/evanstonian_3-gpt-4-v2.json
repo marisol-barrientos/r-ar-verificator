@@ -1,0 +1,238 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "room-service manager",
+      "role": "manager",
+      "user": "guest",
+      "org_unit": "room service",
+      "organization": "The Evanstonian",
+      "activity": "take down order",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "room-service manager",
+      "role": "manager",
+      "user": "guest",
+      "org_unit": "room service",
+      "organization": "The Evanstonian",
+      "activity": "submit order ticket to kitchen",
+      "is_performed": true,
+      "has_anaphora": [
+        true,
+        "she"
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "room-service manager",
+      "role": "manager",
+      "user": "guest",
+      "org_unit": "room service",
+      "organization": "The Evanstonian",
+      "activity": "give order to sommelier",
+      "is_performed": true,
+      "has_anaphora": [
+        true,
+        "she"
+      ],
+      "has_condition": [
+        true,
+        "order includes wine or other alcoholic beverage"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "room-service manager",
+      "role": "manager",
+      "user": "guest",
+      "org_unit": "room service",
+      "organization": "The Evanstonian",
+      "activity": "assign order to waiter",
+      "is_performed": true,
+      "has_anaphora": [
+        true,
+        "she"
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "waiter",
+      "role": "waiter",
+      "user": "guest",
+      "org_unit": "room service",
+      "organization": "The Evanstonian",
+      "activity": "prepare cart",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "waiter",
+      "role": "waiter",
+      "user": "guest",
+      "org_unit": "room service",
+      "organization": "The Evanstonian",
+      "activity": "prepare nonalcoholic drinks",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "waiter",
+      "role": "waiter",
+      "user": "guest",
+      "org_unit": "room service",
+      "organization": "The Evanstonian",
+      "activity": "deliver food, wine, and cart to guest's room",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "food, wine, and cart are ready"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "waiter",
+      "role": "waiter",
+      "user": "guest",
+      "org_unit": "room service",
+      "organization": "The Evanstonian",
+      "activity": "debit guest's account",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "waiter returns to room-service station"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "resource": "waiter",
+      "role": "waiter",
+      "user": "guest",
+      "org_unit": "room service",
+      "organization": "The Evanstonian",
+      "activity": "wait to do billing",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "waiter has another order to prepare or deliver"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

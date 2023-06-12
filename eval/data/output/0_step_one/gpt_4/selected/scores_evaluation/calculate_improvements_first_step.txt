@@ -1,0 +1,24 @@
+Improvements for bicycle_gpt_4 compared to bicycle_gpt_3_5:
+  Precision: 46.25%
+  Recall: 0.00%
+  F1_score: 24.34%
+  Accuracy: 31.55%
+
+Improvements for running_gpt_4 compared to running_gpt_3_5:
+  Precision: 9.09%
+  Recall: 9.09%
+  F1_score: 9.09%
+  Accuracy: 16.67%
+
+Improvements for schedule_meetings_gpt_4 compared to schedule_meetings_gpt_3_5:
+  Precision: 77.78%
+  Recall: 500.00%
+  F1_score: 276.47%
+  Accuracy: 522.22%
+
+Improvements for bpic_gpt_4 compared to bpic_gpt_3_5:
+  Precision: 30.77%
+  Recall: 38.46%
+  F1_score: 34.62%
+  Accuracy: 69.23%
+

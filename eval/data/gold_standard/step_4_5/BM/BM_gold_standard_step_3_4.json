@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "Activity_in_Log": "back-order part",
+        "Detected_Activity": "back-order the part",
+        "Resources": "storehouse"
+    },
+    {
+        "id": 2,
+        "Activity_in_Log": "accept order",
+        "Detected_Activity": "accept the order",
+        "Resources": "member of the sales department"
+    },
+    {
+        "id": 3,
+        "Activity_in_Log": "prepare for assembling the ordered bicycle",
+        "Detected_Activity": "prepare for assembling",
+        "Resources": "engineering department"
+    },
+    {
+        "id": 4,
+        "Activity_in_Log": "process part list of order",
+        "Detected_Activity": "process the part list",
+        "Resources": "storehouse"
+    },
+    {
+        "id": 5,
+        "Activity_in_Log": "check required quantity of each part",
+        "Detected_Activity": "check the required quantity of each part",
+        "Resources": "storehouse"
+
+    },
+    {
+        "id": 6,
+        "Activity_in_Log": "reserve part",
+        "Detected_Activity": "reserve the part",
+        "Resources": "storehouse"
+
+    },
+    {
+        "id": 7,
+        "Activity_in_Log": "assemble bicycle",
+        "Detected_Activity": "assemble the bicycle",
+        "Resources": "engineering department"
+
+    },
+    {
+        "id": 8,
+        "Activity_in_Log": "ship bicycle to customer",
+        "Detected_Activity": "ship the bicycle to the customer",
+        "Resources": "sales department"
+
+    },
+    {
+        "id": 9,
+        "Activity_in_Log": "reject order",
+        "Detected_Activity": "reject the order",
+        "Resources": "sales department"
+
+    },
+    {
+        "id": 10,
+        "Activity_in_Log": "reserve part",
+        "Detected_Activity": "reserve the part",
+        "Resources": "storehouse"
+    }
+]

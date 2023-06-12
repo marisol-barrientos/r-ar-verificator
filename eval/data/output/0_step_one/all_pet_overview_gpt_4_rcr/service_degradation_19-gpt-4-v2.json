@@ -1,0 +1,1189 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "customer",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "perceive subscribed service degradation",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "customer",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "send a list with all problem parameters",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "Customer Service department",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "receive the list with problem parameters",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "employee",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Customer Service department",
+      "organization": "TELECO",
+      "activity": "enter a problem report into system T",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "employee",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Customer Service department",
+      "organization": "TELECO",
+      "activity": "compare problem report to customer SLA",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "employee",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Customer Service department",
+      "organization": "TELECO",
+      "activity": "identify extent and details of service degradation",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "employee",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Customer Service department",
+      "organization": "TELECO",
+      "activity": "determine necessary counter measures and priorities",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "electronic service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "determine customer significance",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 9,
+      "resource": "process",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "link to extra problem fix process",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "customer is premium"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 10,
+      "resource": "process",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "re-prioritize counter measures",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "customer is of certain significance"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 11,
+      "resource": "employee",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Customer Service department",
+      "organization": "TELECO",
+      "activity": "create detailed problem report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 12,
+      "resource": "employee",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Customer Service department",
+      "organization": "TELECO",
+      "activity": "send detailed problem report to Service Management",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 13,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "receive detailed problem report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 14,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "investigate problem",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 15,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "send detailed problem report to Resource Provisioning",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "problem not analyzable by Service Management"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 16,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "analyze problem",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "problem analyzable by Service Management"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 17,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "create trouble report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 18,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "receive detailed problem report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 19,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "check for possible problems",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 20,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "create normal service execution notification",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "no problems detected"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 21,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "analyze detected problem",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "problem detected"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 22,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "create trouble report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "problem detected"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 23,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "include trouble report or normal execution notification in status report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 24,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "send status report to Service Management",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 25,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "receive status report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 26,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "prepare final status report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 27,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "determine counter measures",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 28,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "send actual service performance to Customer Service",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "no problem detected at all"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 29,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "undertake corrective actions",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "minor corrective actions required"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 30,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "create problem resolution report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "minor corrective actions required"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 31,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "send problem resolution report to Customer Service",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "minor corrective actions required"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 32,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "create request for automatic resource restoration",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "automatic resource restoration required"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 33,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "send request for automatic resource restoration to Resource Provisioning",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "automatic resource restoration required"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 34,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "receive restoration request",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "within 2 days after status report sent"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 35,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "track all possible errors",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "restoration request received"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 36,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "undertake corrective actions",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "tracked errors"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 37,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "create trouble-shooting report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "corrective actions undertaken"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 38,
+      "resource": "Resource Provisioning",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "send trouble-shooting report to Service Management",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "trouble-shooting report created"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 39,
+      "resource": "Service Management",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "receive trouble-shooting report",
+      "is_performed": true,
+      "has_anaphora": false,
+      "has_condition": [
+        true,
+        "trouble-shooting report sent"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 40,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "receive actual service performance or problem resolution report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 41,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "create report for the customer",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 42,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "report SLA violation rebate to Billing & Collections",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 43,
+      "resource": "Customer Service",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "TELECO",
+      "activity": "send report to the customer",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    },
+    {
+      "id": 44,
+      "resource": "Customer",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "receive report about service performance and problem resolution",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "not_specified",
+      "max": "not_specified",
+      "equals": "not_specified",
+      "resource_patterns_id": [
+        1,
+        5
+      ]
+    }
+  ]
+}

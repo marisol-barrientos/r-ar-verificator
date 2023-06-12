@@ -1,0 +1,135 @@
+{
+    "measure_types": {
+        "similarity_measure": "TF-IDF",
+        "threshold": 0.55,
+        "activity_matching": true
+    },
+    "activity_matching_output": [
+        {
+            "Id_in_Log": 1,
+            "Id_in_Description": 1,
+            "Activity_in_Log": "demand solvency check",
+            "Detected_Activity": "demand a solvency check from Miracle Credit",
+            "Similarity_Score": 0.722652611119347
+        },
+        {
+            "Id_in_Log": 2,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "perform solvency check",
+            "Detected_Activity": "perform the solvency check",
+            "Similarity_Score": 1.0
+        },
+        {
+            "Id_in_Log": 3,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "perform solvency check",
+            "Detected_Activity": "perform the solvency check",
+            "Similarity_Score": 1.0
+        },
+        {
+            "Id_in_Log": 4,
+            "Id_in_Description": 3,
+            "Activity_in_Log": "hand back solvency check results",
+            "Detected_Activity": "hand back the results of the solvency check to Elite Holding",
+            "Similarity_Score": 0.7838065807216912
+        },
+        {
+            "Id_in_Log": 5,
+            "Id_in_Description": 6,
+            "Activity_in_Log": "develop payment schedule",
+            "Detected_Activity": "develop a payment schedule",
+            "Similarity_Score": 1.0
+        },
+        {
+            "Id_in_Log": 6,
+            "Id_in_Description": "None",
+            "Activity_in_Log": "send schedule",
+            "Detected_Activity": "",
+            "Similarity_Score": 0.547727524542294
+        },
+        {
+            "Id_in_Log": 7,
+            "Id_in_Description": 8,
+            "Activity_in_Log": "approve payment schedule",
+            "Detected_Activity": "approve the payment schedule",
+            "Similarity_Score": 0.9999999999999999
+        },
+        {
+            "Id_in_Log": 8,
+            "Id_in_Description": 8,
+            "Activity_in_Log": "approve payment schedule",
+            "Detected_Activity": "approve the payment schedule",
+            "Similarity_Score": 0.9999999999999999
+        },
+        {
+            "Id_in_Log": 9,
+            "Id_in_Description": 12,
+            "Activity_in_Log": "send email to customer",
+            "Detected_Activity": "send an email to the customer",
+            "Similarity_Score": 0.9999999999999999
+        },
+        {
+            "Id_in_Log": 10,
+            "Id_in_Description": 4,
+            "Activity_in_Log": "inform customer",
+            "Detected_Activity": "inform the customer",
+            "Similarity_Score": 1.0000000000000002
+        },
+        {
+            "Id_in_Log": 11,
+            "Id_in_Description": 5,
+            "Activity_in_Log": "delete customer request",
+            "Detected_Activity": "delete the customer's request",
+            "Similarity_Score": 0.9999999999999998
+        },
+        {
+            "Id_in_Log": 12,
+            "Id_in_Description": 6,
+            "Activity_in_Log": "develop payment schedule",
+            "Detected_Activity": "develop a payment schedule",
+            "Similarity_Score": 1.0
+        },
+        {
+            "Id_in_Log": 13,
+            "Id_in_Description": 13,
+            "Activity_in_Log": "call customer to discuss alternative",
+            "Detected_Activity": "call the customer to suggest an alternative",
+            "Similarity_Score": 0.7729869703220903
+        },
+        {
+            "Id_in_Log": 14,
+            "Id_in_Description": 8,
+            "Activity_in_Log": "approve payment schedule",
+            "Detected_Activity": "approve the payment schedule",
+            "Similarity_Score": 0.9999999999999999
+        },
+        {
+            "Id_in_Log": 15,
+            "Id_in_Description": 8,
+            "Activity_in_Log": "approve payment schedule",
+            "Detected_Activity": "approve the payment schedule",
+            "Similarity_Score": 0.9999999999999999
+        },
+        {
+            "Id_in_Log": 16,
+            "Id_in_Description": 4,
+            "Activity_in_Log": "inform customer",
+            "Detected_Activity": "inform the customer",
+            "Similarity_Score": 1.0000000000000002
+        },
+        {
+            "Id_in_Log": 17,
+            "Id_in_Description": 8,
+            "Activity_in_Log": "approve payment schedule",
+            "Detected_Activity": "approve the payment schedule",
+            "Similarity_Score": 0.9999999999999999
+        },
+        {
+            "Id_in_Log": 18,
+            "Id_in_Description": 12,
+            "Activity_in_Log": "send email to customer",
+            "Detected_Activity": "send an email to the customer",
+            "Similarity_Score": 0.9999999999999999
+        }
+    ]
+}

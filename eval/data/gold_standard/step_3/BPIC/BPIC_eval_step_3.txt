@@ -1,0 +1,22 @@
+Taking into account pairs which are represented in the process description:
+
+True Positives: 28
+False Positives: 0
+False Negatives: 0
+Precision: 1.0
+Recall: 1.0
+F1 Score: 1.0
+-----------------------
+-----------------------
+
+
+If we take into account as error the pairs that do not appear in the process description. Even though they were very
+nicely classified.
+
+
+True Positives: 28
+False Positives: 29
+False Negatives: 0
+Precision: 0.49122807017543857
+Recall: 1.0
+F1 Score: 0.6588235294117647

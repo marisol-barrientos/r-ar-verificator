@@ -1,0 +1,160 @@
+{
+  "pairs": [
+    {
+      "id": "1",
+      "resource": "not_specified",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "check unprocessed files",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": "2",
+      "resource": "not_specified",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "initiate search",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "some files are missing"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": "3",
+      "resource": "not_specified",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "track files to intended location",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "all files are ready"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": "4",
+      "resource": "Associate",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "receive files",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": "5",
+      "resource": "not_specified",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "distribute Judge's Lawlist",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": "6",
+      "resource": "not_specified",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "conduct directions hearings",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+    "to_execute": "compliance_check",
+
+    "similarity_measure": "BERT",
+    "threshold_activity": 0.80,
+    "threshold_resource_activity": 0.80,
+    "resource_types": "['role']",
+    "check_resource_and_activity": false,
+    "perform_pattern_rar_check": false,
+
+    "case_id_column_name": "concept:instance",
+    "activity_column_name": "concept:name",
+    "timestamp_key_name": "time:timestamp",
+    "used_separator": ",",
+    "event_log_file_name": "BPIC_event_log",
+    "input_event_log": "/eval/data/input/logs/BPIC/BPIC_event_log.csv",
+    "path_preprocessed_event_log": "/eval/data/output/1_step_two/BPIC/BPIC_event_log.json",
+
+    "gpt_4_output_file": "/eval/data/output/0_step_one/gpt_4/selected/output/BPIC_gpt_4.json",
+    "gpt_4_output_file_with_patterns": "/eval/data/output/0_step_one/gpt_4/selected/output/BPIC_gpt_4_with_patterns.json",
+
+    "step_two_output_path": "/eval/data/output/1_step_two/BPIC/",
+    "step_three_output_path": "/eval/data/output/2_step_three/BPIC/",
+    "step_four_five_output_path": "/eval/data/output/3_step_four_five/BPIC/",
+
+    "activity_matching_output_file_name": "0_80_BPIC",
+    "compliance_check_output_file_name": "0_80_BPIC"
+}

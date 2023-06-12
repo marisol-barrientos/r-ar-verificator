@@ -1,0 +1,213 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "automatic",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "approve amounts under $200",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        9
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "supervisor",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "approve amounts equal to or over $200",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "system",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "send rejection notice email",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "rejection"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "system",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "send reimbursement to employee's direct deposit bank account",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "approval and not rejection"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "system",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "send approval in progress email",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "request not completed in 7 days"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "system",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "stop process",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "request not finished within 30 days"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "system",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "send email cancellation notice",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "request not finished within 30 days"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "employee",
+      "role": "",
+      "user": "",
+      "org_unit": "",
+      "organization": "",
+      "activity": "re-submit expense report",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "request not finished within 30 days and process stopped"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

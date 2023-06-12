@@ -1,0 +1,217 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "CRS",
+      "role": "not_specified",
+      "user": "customer",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "check defect",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "CRS",
+      "role": "not_specified",
+      "user": "customer",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "hand out repair cost calculation",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "not_specified",
+      "role": "not_specified",
+      "user": "customer",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "take computer home unrepaired",
+      "is_performed": true,
+      "has_anaphora": [
+        true,
+        "she"
+      ],
+      "has_condition": [
+        true,
+        "costs are not acceptable"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "automatic",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "check and repair hardware",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "costs are acceptable"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        9
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "automatic",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "check and configure software",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "costs are acceptable"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        9
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "automatic",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "test proper system functionality",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "hardware repaired or software configured"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        9
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "automatic",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "execute arbitrary repair activity",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "error detected"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        9
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "automatic",
+      "role": "not_specified",
+      "user": "any_user",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "finish repair",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "no error detected"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1,
+        9
+      ]
+    }
+  ]
+}

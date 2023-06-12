@@ -1,0 +1,238 @@
+{
+  "pairs": [
+    {
+      "id": 1,
+      "resource": "party",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "send a warrant possession request",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 2,
+      "resource": "Client Service Back Office",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Small Claims Registry Operations",
+      "organization": "not_specified",
+      "activity": "receive the request",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        false,
+        ""
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 3,
+      "resource": "Client Service Back Office",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Small Claims Registry Operations",
+      "organization": "not_specified",
+      "activity": "retrieve the SCT file",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "receive the request"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "resource": "Client Service Back Office",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Small Claims Registry Operations",
+      "organization": "not_specified",
+      "activity": "forward the SCT Warrant Possession to Queensland Police",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "retrieve the SCT file"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 5,
+      "resource": "Client Service Back Office",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Small Claims Registry Operations",
+      "organization": "not_specified",
+      "activity": "store the SCT physical file",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "forward the SCT Warrant Possession to Queensland Police"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "resource": "Client Service Back Office",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Small Claims Registry Operations",
+      "organization": "not_specified",
+      "activity": "retrieve the respective SCT file",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "receive the report from the Police"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 7,
+      "resource": "Client Service Back Office",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Small Claims Registry Operations",
+      "organization": "not_specified",
+      "activity": "attach the new SCT document",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "retrieve the respective SCT file"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 8,
+      "resource": "Client Service Back Office",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "Small Claims Registry Operations",
+      "organization": "not_specified",
+      "activity": "store the expanded SCT physical file",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "attach the new SCT document"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    },
+    {
+      "id": 9,
+      "resource": "MC internal staff",
+      "role": "not_specified",
+      "user": "not_specified",
+      "org_unit": "not_specified",
+      "organization": "not_specified",
+      "activity": "receive the physical SCT file",
+      "is_performed": true,
+      "has_anaphora": [
+        false,
+        ""
+      ],
+      "has_condition": [
+        true,
+        "store the expanded SCT physical file"
+      ],
+      "inclusion": [],
+      "exclusion": [],
+      "min": "",
+      "max": "",
+      "equals": "",
+      "resource_patterns_id": [
+        1
+      ]
+    }
+  ]
+}

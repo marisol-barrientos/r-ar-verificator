@@ -1,0 +1,6 @@
+True positives: 9
+False negatives: 0
+False positives: 0
+Precision: 1.0
+Recall: 1.0
+F1 Score: 1.0

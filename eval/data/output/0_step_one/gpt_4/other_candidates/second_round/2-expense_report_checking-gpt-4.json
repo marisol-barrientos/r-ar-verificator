@@ -1,0 +1,203 @@
+{
+"pairs": [
+{
+"id": 1,
+"resource": "employee",
+"role": "not_specified",
+"user": "not_specified",
+"org_unit": "not_specified",
+"organization": "not_specified",
+"activity": "create account",
+"is_performed": true,
+"has_anaphora": [false, ""],
+"has_condition": [true, "Expense Report is received and employee does not already have an account"],
+"inclusion": [],
+"exclusion": [],
+"min": "",
+"max": "",
+"equals": ""
+},
+{
+"id": 2,
+"resource": "automatic",
+"role": "not_specified",
+"user": "not_specified",
+"org_unit": "not_specified",
+"organization": "not_specified",
+"activity": "review report for approval",
+"is_performed": true,
+"has_anaphora": [false, ""],
+"has_condition": [false, ""],
+"inclusion": [],
+"exclusion": [],
+"min": "",
+"max": "",
+"equals": ""
+},
+{
+"id": 3,
+"resource": "automatic",
+"role": "not_specified",
+"user": "not_specified",
+"org_unit": "not_specified",
+"organization": "not_specified",
+"activity": "approve report",
+"is_performed": true,
+"has_anaphora": [false, ""],
+"has_condition": [true, "amounts under $200"],
+"inclusion": [],
+"exclusion": [],
+"min": "",
+"max": "",
+"equals": ""
+},
+{
+"id": 4,
+"resource": "supervisor",
+"role": "not_specified",
+"user": "not_specified",
+"org_unit": "not_specified",
+"organization": "not_specified",
+"activity": "approve report",
+"is_performed": true,
+"has_anaphora": [false, ""],
+"has_condition": [true, "amounts equal to or over $200"],
+"inclusion": [],
+"exclusion": [],
+"min": "",
+"max": "",
+"equals": ""
+},
+{
+"id": 5,
+"resource": "system",
+"role": "not_specified",
+"user": "not_specified",
+"org_unit": "not_specified",
+"organization": "not_specified",
+"activity": "send rejection notice",
+"is_performed": true,
+"has_anaphora": [false, ""],
+"has_condition": [true, "rejection"],
+"inclusion": [],
+"exclusion": [],
+"min": "",
+"max": "",
+"equals": ""
+},
+{
+"id": 6,
+"resource": "system",
+"role": "not_specified",
+"user": "not_specified",
+"org_unit": "not_specified",
+"organization": "not_specified",
+"activity": "reimburse employee",
+"is_performed": true,
+"has_anaphora": [false, ""],
+"has_condition": [true, "approval"],
+"inclusion": [],
+"exclusion": [],
+"min": "",
+"max": "",
+"equals": ""
+},
+{
+"id":7,
+"resource": "system",
+"role": "not_specified",
+"user": "not_specified",
+"org_unit": "not_specified",
+"organization": "not_specified",
+"activity": "send approval in progress email",
+"is_performed": true,
+"has_anaphora": [false, ""],
+"has_condition": [true, "request not completed in 7 days"],
+"inclusion": [],
+"exclusion": [],
+"min": "",
+"max": "",
+"equals": ""
+},
+{
+"id": 8,
+"resource": "system",
+"role": "not_specified",
+"user": "not_specified",
+"org_unit": "not_specified",
+"organization": "not_specified",
+"activity": "stop process",
+"is_performed": true,
+"has_anaphora": [false, ""],
+"has_condition": [true, "request not finished within 30 days"],
+"inclusion": [],
+"exclusion": [],
+"min": "",
+"max": "",
+"equals": ""
+},
+{
+"id": 9,
+"resource": "system",
+"role": "not_specified",
+"user": "not_specified",
+"org_unit": "not_specified",
+"organization": "not_specified",
+"activity": "send email cancellation notice",
+"is_performed": true,
+"has_anaphora": [false, ""],
+"has_condition": [true, "request not finished within 30 days"],
+"inclusion": [],
+"exclusion": [],
+"min": "",
+"max": "",
+"equals": ""
+},
+{
+"id": 10,
+"resource": "employee",
+"role": "not_specified",
+"user": "not_specified",
+"org_unit": "not_specified",
+"organization": "not_specified",
+"activity": "re-submit expense report",
+"is_performed": true,
+"has_anaphora": [false, ""],
+"has_condition": [true, "request not finished within 30 days and process stopped"],
+"inclusion": [],
+"exclusion": [],
+"min": "",
+"max": "",
+"equals": ""
+}
+]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

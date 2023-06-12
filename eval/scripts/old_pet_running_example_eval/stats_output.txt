@@ -1,0 +1,6 @@
+bicycle_manufacturing_eval_last_step{'True Positive': 100, 'True Negative': 0, 'False Positive': 0, 'False Negative': 106, 'Precision': 1.0, 'Recall': 0.4854368932038835, 'F1 Score': 0.6535947712418301}
+non_bicycle_manufacturing_eval_last_step{'True Positive': 98, 'True Negative': 0, 'False Positive': 4, 'False Negative': 104, 'Precision': 0.9607843137254902, 'Recall': 0.48514851485148514, 'F1 Score': 0.644736842105263}
+non_running_example_v3_eval_last_step{'True Positive': 240, 'True Negative': 0, 'False Positive': 8, 'False Negative': 80, 'Precision': 0.967741935483871, 'Recall': 0.75, 'F1 Score': 0.8450704225352113}
+non_schedule_meetings_creation_next_year_eval_last_step{'True Positive': 215, 'True Negative': 0, 'False Positive': 2, 'False Negative': 108, 'Precision': 0.9907834101382489, 'Recall': 0.6656346749226006, 'F1 Score': 0.7962962962962964}
+running_example_v3_eval_last_step{'True Positive': 250, 'True Negative': 0, 'False Positive': 0, 'False Negative': 80, 'Precision': 1.0, 'Recall': 0.7575757575757576, 'F1 Score': 0.8620689655172413}
+schedule_meetings_creation_next_year_eval_last_step{'True Positive': 216, 'True Negative': 0, 'False Positive': 0, 'False Negative': 108, 'Precision': 1.0, 'Recall': 0.6666666666666666, 'F1 Score': 0.8}

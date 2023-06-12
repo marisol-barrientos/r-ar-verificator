@@ -1,0 +1,408 @@
+{
+    "measure_types": {
+        "similarity_measure": "BERT",
+        "threshold": 0.7,
+        "activity_matching": true
+    },
+    "activity_matching_output": [
+        {
+            "Id_in_Log": 1,
+            "Id_in_Description": 8,
+            "Activity_in_Log": "request payment",
+            "Detected_Activity": "request payment",
+            "Similarity_Score": "1.0000002"
+        },
+        {
+            "Id_in_Log": 2,
+            "Id_in_Description": 9,
+            "Activity_in_Log": "payment handled",
+            "Detected_Activity": "make payment",
+            "Similarity_Score": "0.9233465"
+        },
+        {
+            "Id_in_Log": 3,
+            "Id_in_Description": "None",
+            "Activity_in_Log": "start trip",
+            "Detected_Activity": "",
+            "Similarity_Score": "0.6879082"
+        },
+        {
+            "Id_in_Log": 4,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "end trip",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.7642501"
+        },
+        {
+            "Id_in_Log": 5,
+            "Id_in_Description": 6,
+            "Activity_in_Log": "send reminder",
+            "Detected_Activity": "resubmit request",
+            "Similarity_Score": "0.793068"
+        },
+        {
+            "Id_in_Log": 6,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "declaration final_approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.84588856"
+        },
+        {
+            "Id_in_Log": 7,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "declaration approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.895651"
+        },
+        {
+            "Id_in_Log": 8,
+            "Id_in_Description": 1,
+            "Activity_in_Log": "declaration submitted",
+            "Detected_Activity": "submit declaration documents",
+            "Similarity_Score": "0.8981477"
+        },
+        {
+            "Id_in_Log": 9,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "permit approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.88066876"
+        },
+        {
+            "Id_in_Log": 10,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "permit rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9381807"
+        },
+        {
+            "Id_in_Log": 11,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "declaration approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.895651"
+        },
+        {
+            "Id_in_Log": 12,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "permit rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9381807"
+        },
+        {
+            "Id_in_Log": 13,
+            "Id_in_Description": 10,
+            "Activity_in_Log": "permit submitted",
+            "Detected_Activity": "submit travel permit",
+            "Similarity_Score": "0.85521036"
+        },
+        {
+            "Id_in_Log": 14,
+            "Id_in_Description": 8,
+            "Activity_in_Log": "request for payment submitted",
+            "Detected_Activity": "request payment",
+            "Similarity_Score": "0.9485991"
+        },
+        {
+            "Id_in_Log": 15,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "request for payment approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.8895582"
+        },
+        {
+            "Id_in_Log": 16,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "request for payment final_approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.84110624"
+        },
+        {
+            "Id_in_Log": 17,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "declaration rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9468259"
+        },
+        {
+            "Id_in_Log": 18,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "declaration rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9468259"
+        },
+        {
+            "Id_in_Log": 19,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "declaration rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9468259"
+        },
+        {
+            "Id_in_Log": 20,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "declaration approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.895651"
+        },
+        {
+            "Id_in_Log": 21,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "declaration rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9468259"
+        },
+        {
+            "Id_in_Log": 22,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "permit final_approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.82447916"
+        },
+        {
+            "Id_in_Log": 23,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "permit approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.88066876"
+        },
+        {
+            "Id_in_Log": 24,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "declaration rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9468259"
+        },
+        {
+            "Id_in_Log": 25,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "request for payment rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9199423"
+        },
+        {
+            "Id_in_Log": 26,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "request for payment rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9199423"
+        },
+        {
+            "Id_in_Log": 27,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "declaration saved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.7968862"
+        },
+        {
+            "Id_in_Log": 28,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "request for payment approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.8895582"
+        },
+        {
+            "Id_in_Log": 29,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "declaration rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9468259"
+        },
+        {
+            "Id_in_Log": 30,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "permit final_approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.82447916"
+        },
+        {
+            "Id_in_Log": 31,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "permit approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.88066876"
+        },
+        {
+            "Id_in_Log": 32,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "permit saved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.7555551"
+        },
+        {
+            "Id_in_Log": 33,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "permit rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9381807"
+        },
+        {
+            "Id_in_Log": 34,
+            "Id_in_Description": 9,
+            "Activity_in_Log": "request for payment saved",
+            "Detected_Activity": "make payment",
+            "Similarity_Score": "0.7347923"
+        },
+        {
+            "Id_in_Log": 35,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "declaration for_approval",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.8415793"
+        },
+        {
+            "Id_in_Log": 36,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "permit rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9381807"
+        },
+        {
+            "Id_in_Log": 37,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "request for payment rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9199423"
+        },
+        {
+            "Id_in_Log": 38,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "declaration approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.895651"
+        },
+        {
+            "Id_in_Log": 39,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "declaration final_approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.84588856"
+        },
+        {
+            "Id_in_Log": 40,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "permit for_approval",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.85348505"
+        },
+        {
+            "Id_in_Log": 41,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "request for payment approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.8895582"
+        },
+        {
+            "Id_in_Log": 42,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "request for payment rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9199423"
+        },
+        {
+            "Id_in_Log": 43,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "request for payment rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9199423"
+        },
+        {
+            "Id_in_Log": 44,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "request for payment approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.8895582"
+        },
+        {
+            "Id_in_Log": 45,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "request for payment final_approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.84110624"
+        },
+        {
+            "Id_in_Log": 46,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "request for payment rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9199423"
+        },
+        {
+            "Id_in_Log": 47,
+            "Id_in_Description": 8,
+            "Activity_in_Log": "request for payment for_approval",
+            "Detected_Activity": "request payment",
+            "Similarity_Score": "0.91157436"
+        },
+        {
+            "Id_in_Log": 48,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "request for payment final_approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.84110624"
+        },
+        {
+            "Id_in_Log": 49,
+            "Id_in_Description": 8,
+            "Activity_in_Log": "request for payment for_approval",
+            "Detected_Activity": "request payment",
+            "Similarity_Score": "0.91157436"
+        },
+        {
+            "Id_in_Log": 50,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "declaration rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9468259"
+        },
+        {
+            "Id_in_Log": 51,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "permit rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9381807"
+        },
+        {
+            "Id_in_Log": 52,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "permit rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9381807"
+        },
+        {
+            "Id_in_Log": 53,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "permit for_approval",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.85348505"
+        },
+        {
+            "Id_in_Log": 54,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "permit approved",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.88066876"
+        },
+        {
+            "Id_in_Log": 55,
+            "Id_in_Description": 7,
+            "Activity_in_Log": "permit rejected",
+            "Detected_Activity": "reject request",
+            "Similarity_Score": "0.9381807"
+        },
+        {
+            "Id_in_Log": 56,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "declaration for_approval",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.8415793"
+        },
+        {
+            "Id_in_Log": 57,
+            "Id_in_Description": 2,
+            "Activity_in_Log": "declaration for_approval",
+            "Detected_Activity": "approve request",
+            "Similarity_Score": "0.8415793"
+        }
+    ]
+}

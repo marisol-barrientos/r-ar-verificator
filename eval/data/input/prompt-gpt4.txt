@@ -1,0 +1,25 @@
+Please return a JSON file that contains pairs of "id", "resource", "role", "user", "org_unit", "organization", "activity", "is_performed", "has_anaphora", "has_condition", "inclusion", "exclusion", "min", "max", and "equals".
+
+The "id" field contains the unique id of a pair.
+
+The resource represents who executes or performs the activity. If the resource belongs to an org_unit or an organization, please indicate this as well, e.g., resource: "John from the marketing department". If the resource contains an "or" or "and", generate a new pair to split this information. Sometimes the resource is the system itself, one example of this is when the activity is automatically executed, please indicate such cases with "automatic".
+
+The role indicates the role of the resource, such as accountant, senior, etc. It will be "not_specified" if not specified. The user indicates the user of the resource and will be "not_specified" if not specified. When the user is any member, employee, etc., the user will be "any_user". The org_unit indicates the organizational unit, department, etc., of the resource and will be "not_specified" if not specified. The organization indicates the organization, company, etc., of the resource and will be "not_specified" if not specified.
+
+If the activity that executes contains an "and" or "or", then this pair is split into two different pairs. For example, activity: "perform A and reject B" would be split into one pair with activity: "perform A" and another pair with "reject B". The same applies to cases like "perform A and B"; this will be split into two different pairs with activities "perform A" and "perform B".
+
+The "has_anaphora" field is a tuple, e.g., [true, 'they']. The first field indicates whether an anaphora is present in the original resource. The second field contains the original pronoun to which the anaphora refers. Please remember to consider pronouns like 'she', 'he', etc., as anaphora and annotate them as such.
+
+The "has_condition" field indicates whether the pair detected is embedded and affected by a condition. The output should be a tuple, e.g., [true, 'find paper']. The first field can be true or false depending on whether a condition was detected or not. The second field represents the condition that must be met.
+
+"Is_performed" can be true or false, depending on whether the activity should be executed or performed. Negated activities should appear in their positive form in the activity field. For example, activity: "do not execute A" should appear as activity: "execute A" but with the perform field as false.
+
+The "inclusion" field gathers in an array all the ids from pairs linked by an "and" or similar expressions (conjunctions). For cases like "resource_1 and resource_2, both must do A", two pairs should be created and refer to each other in the inclusion field.
+
+The "exclusion" field gathers in an array all the ids from pairs linked by an "or" or similar expressions (disjunctions). An example of a case where pairs must be connected by exclusion is: "Anna or Hans, but not both".
+
+The "min", "max", and "equals" fields are used for cases like: "Minimum 4 employees must move the container", "Maximum 3 people can replenish pallets in the same shift", or "Exactly 2 employees must serve customers at checkout", where the resource must be a minimum, maximum, or equal to a specific number of employees.
+
+For this input:
+
+Whenever a customer request is received, exactly two clerks from the financial department (FD) perform a solvency check. If the solvency check is not passed, a clerk from the customer advisory informs the customer and deletes the customer's request. If the solvency check is passed, Anna or Hans (financial analysts from FD), but not both, develop a payment schedule. Afterward, the schedule is sent to the manager. Both he and another clerk with the role of supervisor must approve the payment schedule. Approve payment schedule may never be executed by Anna or Hans. If the payment schedule has been approved an email is sent to the customer automatically, otherwise, the customer advisory calls the customer to suggest an alternative. In both cases, the request must be closed.
